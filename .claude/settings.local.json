@@ -4,9 +4,13 @@
       "WebFetch(domain:buddha-api.com)",
       "WebFetch(domain:www.color-hex.com)",
       "Bash(pnpm build 2>&1)",
-      "Bash(curl -s https://buddha-api.com/api/random)"
+      "Bash(curl -s https://buddha-api.com/api/random)",
+      "Bash(npm run build 2>&1 | tail -20)",
+      "mcp__ide__getDiagnostics"
     ]
   },
   "enableAllProjectMcpServers": true,
-  "enabledMcpjsonServers": ["sanity"]
+  "enabledMcpjsonServers": [
+    "sanity"
+  ]
 }
